@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", system-ui;
+}
+
+body {
+    background-color: rgba(21, 66, 57, 0.568);
+    color: #fff;
+    padding-top: 30px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header img {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.container {
+    background-color: rgb(55, 107, 107);
+    padding: 5px;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+form button {
+    background-color: rgb(56, 187, 106);
+    color: #fff;
+    width: 50px;
+    height: 30px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+form input {
+    background-color: #d0d3a6;
+    height: 30px;
+    border: none;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+#input-nome {
+    width: 220px;
+}
+
+#input-tel {
+    width: 110px;
+}
+
+table th {
+    background-color: rgb(156, 181, 209);
+    height: 30px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+#th-nome {
+    width: 270px;
+}
+
+#th-tel {
+    width: 120px;
+}
+
+#th-x {
+    width: 50px;
+}
+
+#ln-nome {
+    font-size: 14px;
+    padding-left: 5px;
+    border-bottom: 1px solid #b4a9a960;
+}
+
+#ln-tel {
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid #b4a9a960;
+}
+
+#contato {
+    padding-left: 5px;
+}
+
+#td-cont, #td-ind {
+    background-color: rgba(222, 184, 135, 0.356);
+    color: rgb(75, 35, 25);
+    font-size: 12px;
+    padding-left: 3px;
+    margin-top: 0px;
+}
+
+#td-ind {
+    text-align: right;
+    padding-right: 3px;
+}
